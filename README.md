@@ -1,10 +1,10 @@
 # SMS-spam-detection-using-nlp
 This project is about building a spam detection system for SMS messages using deep learning techniques in TensorFlow2. Three different architectures, namely Dense Network, LSTM, and Bi-LSTM, have been used to build the spam detection model. The accuracy of the models is compared and evaluated to select the best one.
 
-Dataset Link : https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
+**Dataset Link** : https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
 The SMS Spam Collection dataset from the UCI Machine Learning Repository is used for this project. The dataset contains 5,574 SMS messages, out of which 4,827 messages are labeled as ham (non-spam) and 747 messages as spam. The dataset is split into 4,000 messages for training and 1,574 messages for testing.
 
-Steps Involved :
+**Steps Involved** :
 The following steps are involved in the project:
 
 Load and Explore the Data: The dataset is loaded into a Pandas DataFrame and explored to get insights into the distribution of ham and spam messages.
@@ -17,7 +17,7 @@ Compare and Select the Final Model: The accuracy of the models is compared, and 
 
 Use the Final Trained Classifier to Classify New Messages: The final model is used to classify new messages as ham or spam.
 
-Usage :
+**Usage** :
 To use the SMS spam detection model, follow these steps:
 
 Clone the repository: git clone https://github.com/username/sms-spam-detection.git
@@ -32,5 +32,5 @@ Dense Network - 98.5%
 SVM - 97.6%
 Bi-LSTM - 98.8%
 LSTM - 98.6%
-Conclusion :
+**Conclusion** :
 In this project, we have built a spam detection system for SMS messages using deep learning techniques in TensorFlow2. Three different architectures have been used to build the spam detection model. The Bi-LSTM model performed the best, with an accuracy of 98.8%. The final model has been deployed as a Streamlit app to showcase its working.
